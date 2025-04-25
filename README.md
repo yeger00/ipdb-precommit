@@ -13,7 +13,7 @@ A pre-commit hook that automatically removes `ipdb` statements from Python files
 
 1. Install the package:
 ```bash
-pip install ipdb-precommit
+pip install git+https://github.com/yeger00/ipdb-precommit.git
 ```
 
 2. Add the hook to your `.pre-commit-config.yaml`:
@@ -42,7 +42,12 @@ The hook will automatically run before each commit and remove any `ipdb` stateme
 
 To set up the development environment:
 
-1. Clone the repository
+1. Clone the repository:
+```bash
+git clone https://github.com/yeger00/ipdb-precommit.git
+cd ipdb-precommit
+```
+
 2. Install development dependencies:
 ```bash
 pip install -e .

@@ -12,7 +12,7 @@ git init
 # Create a virtual environment and install the package
 python3 -m venv venv
 source venv/bin/activate
-pip install -e /Users/aviyeger/projects/ipdb-precommit
+pip install git+https://github.com/yeger00/ipdb-precommit.git
 
 # Install pre-commit
 pip install pre-commit

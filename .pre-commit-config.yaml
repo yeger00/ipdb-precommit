@@ -1,0 +1,9 @@
+repos:
+-   repo: local
+    hooks:
+    -   id: remove-ipdb
+        name: Remove ipdb statements
+        entry: remove-ipdb
+        language: python
+        types: [python]
+        pass_filenames: true 
